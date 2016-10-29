@@ -150,4 +150,3 @@ inoremap ii <Esc>
 inoremap <S-CR> <Esc>O
 " Press Control-Enter to add line below current line
 inoremap <C-CR> <Esc>o
-inoremap <C-CR> hello
