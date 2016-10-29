@@ -1,15 +1,15 @@
 # jr-vim
 
-$ cd
-$ mv .vimrc .vim/
-#=> Move your .vimrc file into the .vim/ directory
+Move your .vimrc file into the .vim/ directory
+cd
+mv .vimrc .vim/
 
-$ cd .vim/
-$ git init
-$ git add .
-$ git commit -m "First Commit"
-#=> Get your .vim/ directory under version control
+Get your .vim/ directory under version control
+cd .vim/
+git init
+git add .
+git commit -m "First Commit"
 
-$ cd
-$ ln -s ~/.vim/.vimrc .vimrc
-#=> Go to your home directory and symlink the version controlled .vimrc
+Go to your home directory and symlink the version controlled .vimrc
+cd
+ln -s ~/.vim/.vimrc .vimrc
